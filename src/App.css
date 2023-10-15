@@ -1,0 +1,112 @@
+.App {
+  position: relative;
+  text-align: center;
+}
+
+main {
+  padding: 70px 20px;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: lightgray;
+}
+
+a:focus {
+  color: gray;
+}
+
+h1,
+h2,
+h3,
+.body-default,
+.body-small {
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0;
+  display: block;
+  cursor: default;
+}
+
+h1 {
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 64px;
+  margin-bottom: 48px;
+}
+
+@media (max-width: 1023px) {
+  h1 {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+    margin-bottom: 32px;
+  }
+}
+
+h2 {
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 52px;
+  text-align: left;
+  margin-bottom: 32px;
+}
+
+@media (max-width: 1023px) {
+  h2 {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 36px;
+    margin-bottom: 24px;
+  }
+}
+
+h3 {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: left;
+  margin-bottom: 24px;
+}
+
+@media (max-width: 1023px) {
+  h3 {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 16px;
+  }
+}
+
+.body-default {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+@media (max-width: 1023px) {
+  .body-default {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+}
+
+.body-small {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+@media (max-width: 1023px) {
+  .body-small {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+  }
+}

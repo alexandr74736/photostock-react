@@ -1,0 +1,39 @@
+.content__title-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 1023px) {
+    .content__title-wrapper {
+        margin-bottom: 32px;
+    }
+}
+
+.content__title {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+@media (max-width: 1023px) {
+    .content__title {
+        gap: 8px;
+    }
+}
+
+.content__title-icon {
+    display: block;
+    width: 64px;
+    height: 64px;
+}
+
+@media (max-width: 1023px) {
+    .content__title-icon {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+.content__title_profile {
+    margin: 0;
+}

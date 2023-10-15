@@ -1,0 +1,13 @@
+.notfound {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.notfound__title {
+    margin-top: 72px;
+}
+
+.notfound__back {
+    cursor: pointer;
+}

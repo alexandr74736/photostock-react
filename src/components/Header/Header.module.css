@@ -1,0 +1,70 @@
+.header {
+    width: 100%;
+    position: relative;
+    clear: both;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.header__title {
+    font-family: 'Nekst-Black';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 90%;
+    color: #111111;
+}
+
+
+.header__overlay {
+    margin-top: -70px;
+    transform: translateY(70px);
+    z-index: 10;
+    background-color: transparent;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: none;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='70' preserveAspectRatio='none' viewBox='0 0 1440 70'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1054%26quot%3b)' fill='none'%3e%3crect width='1440' height='70' x='0' y='0' fill='rgba(20%2c 20%2c 20%2c 1)'%3e%3c/rect%3e%3cpath d='M0%2c359.13C87.845%2c365.089%2c185.429%2c450.959%2c255.841%2c398.097C328.09%2c343.855%2c269.957%2c221.897%2c297.43%2c135.832C320.157%2c64.635%2c397.429%2c16.93%2c401.34%2c-57.704C405.501%2c-137.11%2c379.327%2c-224.605%2c319.032%2c-276.443C259.928%2c-327.257%2c169.413%2c-300.318%2c94.422%2c-321.573C20.435%2c-342.543%2c-40.734%2c-404.713%2c-117.501%2c-400.172C-201.39%2c-395.21%2c-286.246%2c-359.23%2c-341.366%2c-295.796C-396.511%2c-232.333%2c-407.222%2c-143.295%2c-413.556%2c-59.46C-419.565%2c20.066%2c-407.728%2c98.564%2c-376.715%2c172.04C-345.017%2c247.14%2c-307.475%2c328.58%2c-234.467%2c364.838C-163%2c400.331%2c-79.612%2c353.73%2c0%2c359.13' fill='%230e0e0e'%3e%3c/path%3e%3cpath d='M1440 627.179C1541.035 647.847 1626.006 550.143 1711.649 492.694 1795.623 436.364 1893.695 388.343 1934.179 295.68399999999997 1974.469 203.469 1944.267 99.117 1926.916-0.007999999999995566 1910.065-96.275 1901.221-200.40499999999997 1834.7930000000001-272.09 1769.069-343.015 1667.936-365.04 1572.772-382.179 1485.261-397.939 1398.911-384.593 1311.902-366.26 1217.959-346.466 1118.895-333.94 1046.202-271.227 968.25-203.97699999999998 896.403-111.05799999999999 896.754-8.107 897.1 93.384 983.0889999999999 170.99099999999999 1047.976 249.031 1098.906 310.286 1174.142 339.162 1231.477 394.468 1307.991 468.274 1335.848 605.873 1440 627.179' fill='%231a1a1a'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1054'%3e%3crect width='1440' height='70' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+}
+
+.header_primary {
+    min-height: 70px;
+}
+
+.header__logo {
+    display: flex;
+    padding: 15px;
+    gap: 12px;
+    text-decoration: none;
+}
+
+.logo__icon {
+    width: 40px;
+    height: 40px;
+    fill: white;
+}
+
+.logo__title {
+    font-size: 24px;
+    color: white;
+}
+
+.header__logo:hover .logo__icon {
+    fill: lightgray;
+}
+
+.header__logo:hover .logo__title {
+    color: lightgray;
+}
+
+.header__logo:active .logo__icon {
+    fill: gray;
+}
+
+.header__logo:active .logo__title {
+    color: gray;
+}

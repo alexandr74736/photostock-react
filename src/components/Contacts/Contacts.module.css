@@ -1,0 +1,65 @@
+.contacts {
+    display: block;
+}
+
+.contacts__title {
+    display: none;
+}
+
+.contacts__content {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    list-style-type: none;
+    margin: 0;
+    padding: 16px 0;
+    text-align: right;
+}
+
+.contacts__item-link {
+    display: flex;
+    gap: 12px;
+    justify-content: flex-end;
+}
+
+.contacts__icon {
+    max-width: 24px;
+    max-height: 24px;
+    display: block;
+}
+
+.contacts__icon_email path,
+.contacts__icon_email rect {
+    stroke: white;
+}
+
+.contacts__icon_site path {
+    fill: white;
+}
+
+.contacts__item-link:hover .contacts__icon_email path,
+.contacts__item-link:hover .contacts__icon_email rect {
+    stroke: lightgray;
+}
+
+.contacts__item-link:focus .contacts__icon_email path,
+.contacts__item-link:focus .contacts__icon_email rect {
+    stroke: gray;
+}
+
+.contacts__item-link:hover .contacts__icon_site path,
+.contacts__item-link:hover .contacts__icon_site rect {
+    fill: lightgray;
+}
+
+.contacts__item-link:focus .contacts__icon_site path,
+.contacts__item-link:focus .contacts__icon_site rect {
+    fill: gray;
+}
+.contacts__item-link:hover .contacts__icon_tel path {
+    fill: lightgray;
+}
+
+.contacts__item-link:focus .contacts__icon_tel path {
+    fill: gray;
+}
