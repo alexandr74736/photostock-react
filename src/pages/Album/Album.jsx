@@ -1,5 +1,4 @@
 import React from 'react';
-import css from './Album.module.css';
 import CardsList from '../../components/CardsList/CardsList';
 import { useParams } from 'react-router-dom';
 
